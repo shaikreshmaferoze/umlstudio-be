@@ -1,0 +1,71 @@
+# UMLStudio .gitignore - Java / Maven / IDE defaults
+*.env
+
+# Maven output
+/target/
+
+# Compiled class files
+*.class
+
+# Package distribution
+*.jar
+*.war
+*.ear
+*.zip
+
+# Logs
+logs/
+*.log
+
+# Build directories
+/out/
+
+# Maven specific
+.mvn/timing.properties
+
+# Keep the Maven wrapper files tracked (do not ignore .mvn/wrapper/maven-wrapper.jar)
+# (The wrapper itself should be committed so contributors can build without a local Maven install.)
+
+# Eclipse / STS
+.classpath
+.project
+.settings/
+.springBeans
+.apt_generated
+.factorypath
+.sts4-cache
+
+# IntelliJ
+.idea/
+*.iml
+*.iws
+*.ipr
+
+# NetBeans
+/nbproject/private/
+/nbbuild/
+/dist/
+/nbdist/
+.nb-gradle/
+
+# VS Code
+.vscode/
+
+# OS generated
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# Temporary files
+*.tmp
+*.swp
+*~
+
+# Ignore IDE-specific run configurations and local files
+run/
+
+# Ignore Tomcat / app server folders
+bin/
+
+# Keep README and helper files
+!HELP.md
